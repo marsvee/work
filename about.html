@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Least I Could Do</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="icon" type="image/icon" href="images/favicon.png">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img id="logo" src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comic.html">Comic</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="forum.html">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="about">
+        <h1>The Goals</h1>
+        <ul>
+            <li><img src="images/info.png" alt="Info Icon">1. Inform college students of the cultural phenomenon that is “utang na loob” and how it affects our everyday lives as Southeast Asians.</li>
+            <li><img src="images/device.png" alt="Device Icon">2. Provide a platform for college students with introductory resources that can be used as a starting point for future-proofing, organized for easy understanding.</li>
+            <li><img src="images/comic.png" alt="Comic Icon">3. Raise awareness through the use of visual media with the hope of encouraging college students to take their future proofing more seriously.</li>
+        </ul>
+
+        <h1>Meet the Creator</h1>
+        <div id="creator">
+            <div id="creator-and-socials">
+                <img src="./images/author.jpg" alt="Author" id="creator-image">
+                <div id="creator-socials">
+                    <div id="creator-instagram" class="social-icon" data-modal="modal-instagram"></div>
+                    <div id="creator-facebook" class="social-icon" data-modal="modal-facebook"></div>
+                    <a href="mailto:this.is.astreaart@gmail.com" target="_blank"><div id="creator-email"></div></a>
+                </div>
+            </div>
+            <div id="creator-description">
+                <p><span>Mars Veyounce S. Pesquira</span> is a freelance digital artist based in the Philippines. She specializes in graphic illustration as well as graphic design and has managed to gain experience with logo commissions and graphic illustrations from various small businesses.</p>
+                <p>She is better known in her local art community through her art alias, Astrea. Inspired by her love of stars and celestial beings (as well as being nicknamed “star child” by several people), she adopted the name from the Greek goddess Astrea meaning "star-maiden".</p>
+                <p>Mars is currently taking her bachelor's degree in De La Salle College of St. Benilde and majoring in Multimedia Arts.</p>
+            </div>
+        </div>
+
+        <div id="modal-template" class="modal-socials">
+            <div class="modal-socials-content">
+                <span class="close-socials">&times;</span>
+                <div id="modal-content"></div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/modal-socials.js"></script>
+
+    <!-- FOOTER -->
+    <footer>
+        <section>
+            <div id="label">
+                <ul>
+                    <li>Web Development by Mars Pesquira</li>
+                    <li>&copy; 2025 <span>MMA CAPSTONE2</span></li>
+                </ul>
+            </div>
+            <div id="socials">
+                <ul>
+                    <li>
+                        <a href="mailto:theleasticouldo.unl@gmail.com">
+                            <div id="footer-email"></div>
+                            theleasticoulddo.unl@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <div id="footer-instagram" class="social-icon" data-modal="modal-instagram-footer"></div>
+                        the.least.i.could.do
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
